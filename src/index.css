@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+.slide-in {
+  animation: slideIn 3s ease-in-out infinite;
+}
+.bg-custom {
+    background-image: url('./assets/BackGround.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-position: fixed;
+    background-repeat: no-repeat;
+  }
