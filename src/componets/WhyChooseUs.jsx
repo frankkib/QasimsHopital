@@ -1,11 +1,11 @@
 import React from "react";
 import bodyImage from "../assets/contact.jpeg";
-import labTest from "../assets/Open.jpeg";
+import labTest from "../assets/EntranceAlly.jpeg";
 
 const WhyChooseUs = () => {
   return (
     <div className="mt-10 p-8">
-      <h2 className="text-center text-3xl font-bold text-gray-800 mb-6">
+      <h2 className="text-center text-3xl font-bold text-blue-400 mb-6">
         Why Choose Us?
       </h2>
       <div className="flex flex-col md:flex-row items-center mt-10 space-y-4 md:space-y-0 md:space-x-4">
